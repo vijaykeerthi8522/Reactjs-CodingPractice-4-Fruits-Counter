@@ -1,0 +1,86 @@
+/* Write your CSS here */ /* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+  height: 100vh;
+  background-size: cover;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffff;
+  width: 80%;
+  padding: 27px;
+  margin-left: 20px;
+  border-radius: 18px;
+  max-width: 1222px;
+  padding-top: 12px;
+}
+.image {
+  height: 190px;
+  width: 160px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin-left: 23px;
+}
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #007bff;
+  color: #ffff;
+  border-radius: 3px;
+  height: 25px;
+  width: 97px;
+  border: 0px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-left: 32px;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.count {
+  color: #ffd569;
+  font-size: 27px;
+}
+.image-count-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .image-count-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .button-count {
+    width: 80%;
+    padding-top: 96px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 96px;
+  }
+  .sub-container {
+    width: 90%;
+    height: 90%;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .image {
+    height: 290px;
+    width: 280px;
+  }
+  .count {
+    font-size: 35px;
+  }
+}
